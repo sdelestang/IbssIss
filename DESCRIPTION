@@ -1,0 +1,24 @@
+Package: IbssIss
+Title: Assign Survey Positions for the Breeding Stock Survey
+Version: 0.1.0
+Authors@R: 
+    person("Simon", "de Lestang", email = "simon.delestang@dpird.wa.gov.au",
+           role = c("aut", "cre"))
+Description: Assigns observer positions from GPS coordinates to named locations
+    in the Inshore Breeding Stock Survey (IBSS) and Inshore Survey (ISS).
+    Provides polygon-based assignment using point-in-polygon testing and a
+    nearest-centroid fallback for points that fall outside all polygons.
+    Survey polygon data for all IBSS and ISS sites are bundled as package
+    datasets.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 4.1.0)
+Imports:
+    sp
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LazyData: true
+LazyDataCompression: xz
+Config/roxygen2/version: 8.0.0
