@@ -13,8 +13,7 @@ Description: Assigns observer positions from GPS coordinates to named locations
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-Depends: R (>= 4.1.0)
-Requires:
+Depends: R (>= 4.1.0),
     sp,
     doBy,
     emmeans,

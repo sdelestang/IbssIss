@@ -81,3 +81,13 @@
 #'
 #' @seealso [getlocpolyiss()], [getlocspointiss()], [ibsspoly]
 "isspoly"
+
+#' Waypoints of retained lines
+#'
+#' GPS waypoints defining the retained survey lines used in the
+#' Inshore Breeding Stock Survey (IBSS) and Inshore Survey (ISS).
+#'
+#' @format A data frame with one row per waypoint and columns as read from
+#'   the source spreadsheet (e.g. line name, latitude, longitude).
+#' @source Waypoints of Retained Lines.xlsx, DPIRD Invertebrate Fisheries.
+"retain"
